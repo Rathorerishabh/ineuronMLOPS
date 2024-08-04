@@ -4,9 +4,9 @@ import logging
 logging.basicConfig(level=logging.INFO,format="%(levelname)s:%(name)s:%(message)s")
 
 list_of_files=[
-    ".github/workflows",
+    ".github/workflows/.gitkeep",
     "src/__init__.py",
-    "src/components/data_ingestion",
+    "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
     "src/components/model_trainer.py",
     "src/components/model_evaluation.py",
